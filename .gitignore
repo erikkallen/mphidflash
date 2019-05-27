@@ -1,3 +1,5 @@
 # Microsoft Fakes
 FakesAssemblies/
 *.bak
+*.o
+binaries/mphidflash-*

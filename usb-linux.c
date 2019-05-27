@@ -6,17 +6,17 @@
                syntax to the portable sections of the code.
 
  History     : 2009-03-16  Phillip Burgess
-                 * Initial linux support for 'ubw32' program 
+                 * Initial linux support for 'ubw32' program
                2009-12-26  Thomas Fischl, Dominik Fisch (www.FundF.net)
                  * Renamed 'ubw32' to 'mphidflash'
                2010-12-28  Petr Olivka
                  * program and verify only data for defined memory areas
                  * send only even length of data to PIC
-               
+
  License     : Copyright (C) 2009 Phillip Burgess
                Copyright (C) 2009 Thomas Fischl, Dominik Fisch (www.FundF.net)
                Copyright (C) 2010 Petr Olivka
-               
+
                This file is part of 'mphidflash' program.
 
                'mphidflash' is free software: you can redistribute it and/or
@@ -36,7 +36,7 @@
  ****************************************************************************/
 #include <stdio.h>
 #include <usb.h>
-#include <hid.h>
+#include <hidapi.h>
 #include "mphidflash.h"
 #include <errno.h>
 
